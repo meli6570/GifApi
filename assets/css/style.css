@@ -1,0 +1,49 @@
+body {
+	background-image: url("https://lh6.ggpht.com/-mcYcA0-mK5LttEKWNlwW2Xlt69ZyH6wvJHkmjp0OullwqBB9gTADgohFzxz9aBdaHc=w300");
+	background-size: auto;
+	color: #000000;
+}
+.title {
+	overflow: auto;
+	background-image: url("http://rochesterdiscovery.com/wp-content/uploads/tv.png");
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+
+
+}
+.picgif {
+	visibility: hidden;
+	background-color: #D3D3D3;
+}
+
+h1,h3, footer{
+	font-family: 'Vollkorn', serif;
+}
+
+.leftSide, button, #add-topic{
+	font-family: 'Vollkorn', serif;
+}
+
+#topic-input{
+	background-color: #708090;
+	border-color: #AFA496;	
+}
+
+
+
+.topic {
+	margin: 5px;
+}
+p {
+	font-family: 'Vollkorn', serif;
+	font-size: 20px
+}
+.box {
+	height: 235px;
+	width: 375px;
+	margin: 5px;
+
+}
+.items {
+	margin-top: 75px;
+}

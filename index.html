@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="assets/javascript/script.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+
+
+	<title>Getting Giphy With It!!</title>
+
+</head>
+<body>
+	<div class="container">
+		<div class="row well title">
+			<div class="col-md-12 text-center">
+				<h1>TV Show Giphy Fun!</h1>
+			</div>
+		</div><!--Header row-->
+		<br>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="well leftSide">
+					<form id="giphy-form">
+				      <label for="topic-input">Press the button of your favorite show to see clips.<br>
+				      If you don't see your favorite show - just type in the box below.</label> 
+				      <br>
+				      <input type="text" id="topic-input" >
+				      <br>
+				      <br>
+				      <input id="add-topic" type="submit" value="Your Favorite Show">
+				    </form>
+				</div><!--input well-->
+				<div class="well buttons leftSide">
+					<button class="topic" data-name="modern family">Modern Family</button>
+					<button class="topic" data-name="seinfeld">Seinfeld</button>
+					<button class="topic" data-name="family guy">Family Guy</button>
+					<button class="topic" data-name="walking dead">Walking Dead</button>
+					<button class="topic" data-name="friends">Friends</button>
+					<button class="topic" data-name="the office">The Office</button>
+  
+				</div><!--where the buttons will go-->
+			</div>
+			<div class="col-md-9">
+				<div class="row well title text-center picgif">
+					<h3 ">Click on the pic to Get Giphy with it!</h3>
+				</div>
+			<div id="images"></div><!--where the images go-->
+				
+			</div>
+		</div>
+	</div>
+</body>
+<!--jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!--bootstrap javascript-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!--my script-->
+<script type="text/javascript" src="script.js"></script>
+</html>
+ 
